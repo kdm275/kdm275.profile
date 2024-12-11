@@ -1,0 +1,148 @@
+.Illustrater{
+columns: 4;/*段組みの数*/
+padding: 0;/*ギャラリー左右に余白をつける*/
+margin: 15px;
+}
+
+.Illustrater li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+	list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.Illustrater img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.Illustrater{
+	columns:3;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.Illustrater{
+	columns: 2;
+	}	
+}
+.Photoshop{
+columns: 4;/*段組みの数*/
+padding: 0;/*ギャラリー左右に余白をつける*/
+margin: 15px;
+}
+
+.Photoshop li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+	list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.Photoshop img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.Photoshop{
+	columns:3;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.Photoshop{
+	columns: 2;
+	}	
+}
+
+
+.Website{
+columns: 4;/*段組みの数*/
+padding: 0;/*ギャラリー左右に余白をつける*/
+margin: 15px;
+}
+
+.Website li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+	list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.Website img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.Website{
+	columns:2;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.Website{
+	columns: 2;
+	}	
+}
+.Digital{
+columns: 4;/*段組みの数*/
+padding: 0;/*ギャラリー左右に余白をつける*/
+margin: 15px;
+}
+
+.Digital li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+	list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.Digital img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.Digital{
+	columns:2;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.Digital{
+	columns: 2;
+	}	
+}
+
+.Other{
+columns: 4;/*段組みの数*/
+padding: 0;/*ギャラリー左右に余白をつける*/
+margin: 15px;
+}
+
+.Other li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+	list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.Other img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.Other{
+	columns:3;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.Other{
+	columns: 2;
+	}	
+}
